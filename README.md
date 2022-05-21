@@ -2,9 +2,13 @@
 
 ## Goal
 
+> Comment from Daniel: I think this is a great idea for a project, especially with the way the housing market has been recently. Will your model somehow take in the current state of the market where everything tends to be more expensive? Also how far back in time do you plan to look at historical data?
+
 This project seeks to create a price prediction mechanism for real estate listings using historical transaction data.  A secondary goal is to idenify pricing markets based on property features and through data enrichment to reveal new insights for real estate markets.  This analysis will focus on residential real estate.
 
 ## Metrics: 
+
+> Comment from Daniel: It may be a good idea to have a target accuracy for the model. This way you have a concrete stopping point for when the model is "good enough"
 
 ### Predicted Price  
 The model should predict the value (price) of an individual property based on the parameters of the property.  These predictions can be checked for accuracy using RMSE as they will be decimal values.  Predicting price is important as it will identify pricing opportunities for open listings that are too low.  The business context is that these low priced values represent opportunities for my fictional real estate business.   
