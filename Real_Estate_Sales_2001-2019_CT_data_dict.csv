@@ -1,0 +1,14 @@
+﻿Serial Number,use is unclear - duplicates exist in dataset without an obvious use
+List Year,year property listed for sale
+Date Recorded,date of transaction
+Town,town where property is located 
+Address,address of property
+Assessed Value,estimate by assor of home value
+Sale Amount,price of transaction
+Sales Ratio,unclear what this ratio represents
+Property Type,"classification of property - Residential, Single Family, Condo"
+Residential Type,"classification of property - Single, Double, Three Family, etc. "
+Non Use Code,metadata classifying reason property was not used.  Exact meaning unclear
+Assessor Remarks,text entry by assessor at time of assessment
+OPM remarks,text entry with details of transaction
+Location,Lat/long of property to 5 decimal points (1m granularity)
