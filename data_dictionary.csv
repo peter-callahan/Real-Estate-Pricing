@@ -1,0 +1,41 @@
+﻿,null_values,perc_null,unique_vals,data_type,desc
+property_id,0,0,944,int64,key identifying property
+prop_type,0,0,8,object,"classification of property: mobile, single family, miltifamily, commercial, etc."
+last_update,0,0,654,object,last known update to dataset
+address,0,0,935,object,address of property in string-like format
+address_new,0,0,941,object,address of property in JSON like format
+prop_status,0,0,1,object,"all values ""previously sold"""
+price_raw,0,0,487,float64,"price of listing, numeric"
+sqft_raw,259,6.475,459,float64,"sqft of listing, numeric"
+is_showcase,0,0,1,bool,"boolean indicating if property was showcased, null is False"
+is_new_construction,0,0,2,bool,"identifies ""new construction"", though the cutoff for that classification unclear"
+price,0,0,487,object,price of listing in string-like format (with $)
+beds,344,8.6,8,float64,number of bedrooms of the property
+baths,0,0,8,object,number of bathrooms of the property
+sqft,0,0,459,object,"sqft of listing, string-like format (with ""sqft"")"
+lot_size,163,4.075,315,object,"size of lot associated with property, in acres"
+photo,0,0,943,object,link to pictures of property
+short_price,0,0,394,object,price of listing in string-like format ($100K)
+baths_half,764,19.1,2,float64,number of half-bathrooms (without a shower)
+baths_full,309,7.725,6,float64,number of full bathrooms (with shower)
+photo_count,186,4.65,84,float64,number of photos of property included in listing
+sold_date,0,0,127,datetime64[ns],date property was sold
+lat,113,2.825,779,float64,latitude 
+lon,113,2.825,776,float64,longitude
+has_leadform,0,0,1,bool,unknown
+page_no,0,0,19,float64,search engine metadata for property listing
+rank,0,0,43,float64,search engine metadata for property listing
+list_tracking,0,0,944,object,variable used for search in context of website
+listing_id,310,7.75,634,float64,key identifying listing of property
+list_date,310,7.75,619,object,date property was listed
+advertiser_id,352,8.8,218,float64,foreign key identifying advertizer
+agent_name,321,8.025,233,object,selling agent name
+agent_photo,488,12.2,158,object,selling agent photo (linked)
+office_name,310,7.75,78,object,name of company for whom agent works
+office_advertiser_id,391,9.775,48,float64,foreign key for company
+price_reduced,310,7.75,2,object,binary flag indicating price was reduced at some point
+products,318,7.95,15,object,list of services offered by company/brokerage
+price_reduced_date,833,20.825,110,object,"date which price was reduced, null if price_reduced is False"
+is_cobroker,537,13.425,1,object,"boolean indicating presence of cobroker, null is False"
+is_foreclosure,942,23.55,1,object,"boolean indicating if property was a foreclosure, null is False"
+snapshot_date,0,0,1,object,date data was scraped from the API
